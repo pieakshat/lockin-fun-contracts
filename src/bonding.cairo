@@ -17,10 +17,10 @@ mod BondingCurveToken {
         erc20: ERC20Component::Storage,
         #[substorage(v0)]
         ownable: OwnableComponent::Storage,
-        k: u256 // Bonding curve constant (price = k * supply^2)
+        k: u256,
     }
 
-    // Events
+
     #[event]
     #[derive(Drop, starknet::Event)]
     enum Event {
