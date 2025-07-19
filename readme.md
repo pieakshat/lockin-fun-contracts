@@ -3,3 +3,6 @@ wallet-admin address: 0x0789021c77a43ba5421ce0dc087e832e39c6007273d026ecefe30340
 class-hash: 0x0619a81832d0dd9a9fb1d60980501d3498d72fa61e2a5a4ddec5e3eeaa867079
 
 deployed-contract: 0x02d4fbc7892a47e52706316af3ea52425a01c618d2f798de4538c1a253f5311c
+
+// trnsaction using the script 
+sepolia-txn: https://sepolia.voyager.online/tx/0x48b8fdb9a6f6d1f7a8b073a6437b37f63105922d9add3142537240e01177a3d#events

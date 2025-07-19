@@ -1,8 +1,32 @@
-target
+# --- Cairo/Starknet ---
+target/
 .snfoundry_cache/
 snfoundry_trace/
 coverage/
 profile/
+Scarb.lock
+*.casm.json
+*.sierra.json
 
+# Starknet account keystores
 admin-key.json
 my-admin-account.json
+
+# --- Node.js / Backend APIs ---
+node_modules/
+.env
+dist/
+build/
+*.log
+
+# pnpm lock (optional if cross-platform lock consistency isn't required)
+pnpm-lock.yaml
+
+# Typescript output (optional if tsc is used directly)
+*.tsbuildinfo
+
+# --- IDEs / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

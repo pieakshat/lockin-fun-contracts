@@ -1,7 +1,5 @@
 #[starknet::contract]
 mod BondingCurveToken {
-    // use core::num::traits::To;
-    // use core::ops::Add;
     use openzeppelin_access::ownable::OwnableComponent;
     use openzeppelin_token::erc20::{DefaultConfig, ERC20Component};
     use starknet::storage::{StoragePointerReadAccess, StoragePointerWriteAccess};
